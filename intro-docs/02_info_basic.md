@@ -174,7 +174,7 @@ $$
 
 额外说一点, 为什么互信息中用的是分号, 按照正常理解, 分号左右应该表示自变量和参数, 这里应该用逗号才对。这里确实应该用逗号, 用分号是为了书写好看, 一种约定俗称的用法, 具体参考: [What does the semicolon mean in mutual information?](https://math.stackexchange.com/questions/3820274/what-does-the-semicolon-mean-in-ixy-mutual-information) 。
 
-## 5. 交叉熵, KL 散度
+## 5. KL 散度
 
 信息熵是一个对称的系统, 随机变量的概率分布在 $[0.1, 0.4, 0.5]$ 和 $[0.1, 0.5, 0.4]$ 时信息熵是相同的, 这符合我们对于信息熵的理解 (随机变量的不确定性没有发生变化)。但是当我们衡量两个分布之间的距离时, 这样就会出现问题, 不同的概率分布计算出来的距离是 0 。
 
@@ -234,7 +234,7 @@ $$
 
 额外说明一下, 数学符号 $||$ 主要表示散度, 常常用于和散度相关的公式中 (但也不绝对), 散度又是一个大坑, 这里就不展开了。
 
-## 6. References
+## References
 
 + [如何通俗的解释交叉熵与相对熵？](https://www.zhihu.com/question/41252833/answer/2347817584)
 + [机器学习丨什么是互信息](https://www.cnblogs.com/vincent1997/articles/12290841.html)

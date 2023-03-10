@@ -147,3 +147,5 @@ output/data/
 # 留一个, 其它的都不要
 output/vis/
 !output/vis/lda_15.html 
+
+*.zhihu.md 
